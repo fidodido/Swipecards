@@ -73,6 +73,8 @@ public class FlingCardListener implements View.OnTouchListener {
 
     public boolean onTouch(View view, MotionEvent event) {
 
+        return false;
+        
         switch (event.getAction() & MotionEvent.ACTION_MASK) {
             case MotionEvent.ACTION_DOWN:
 
